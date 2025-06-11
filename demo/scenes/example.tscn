@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://rfmhk426163q"]
+
+[ext_resource type="Script" uid="uid://dqjnahxj64uif" path="res://addons/cinecam/help/h_cinecam2d.gd" id="1_o34ws"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="H_CineCam2D" type="Camera2D" parent="."]
+script = ExtResource("1_o34ws")
+metadata/_custom_type_script = "uid://dqjnahxj64uif"
